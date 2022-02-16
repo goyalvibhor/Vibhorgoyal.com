@@ -1,0 +1,3 @@
+Sitemap:http://vibhorgoyal.tech/
+User-agent: *
+Disallow:
