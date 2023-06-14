@@ -5,7 +5,7 @@ AOS.init()
 const experiencecards = document.querySelector('.experience-cards')
 const exp = [
   {
-    title: 'Founder of Spazetech solutions',
+    title: 'Founder of Spazetech Solutions',
     cardImage: 'assets/images/experience-page/spaze1.png',
     place: 'Spazetech Solutions',
     time: '(Sep, 2012 - present)',
