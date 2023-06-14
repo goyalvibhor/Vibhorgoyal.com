@@ -5,10 +5,17 @@ AOS.init()
 const experiencecards = document.querySelector('.experience-cards')
 const exp = [
   {
+    title: 'Founder of Spazetech solutions',
+    cardImage: 'assets/images/experience-page/spaze1.png',
+    place: 'Spazetech Solutions',
+    time: '(Sep, 2012 - present)',
+    desp: '<li>Responsible for execution of data strategies to add business value, cost reduction and improve operational efficiency.</li> <li>Client Management including contracts, managing client relationships, compliance etc</li> <li>Increased monthly sales for an online apparel store by 15% by leveraging data analytics to identify high-value clients and using cohort analysis for new customers.</li> <li> Reduced shipping costs for online apparel store by 20% by analysing shipping data and implementing a new shipping strategy that was based on the number of items ordered.</li>',
+  },
+  {
     title: 'Business Intelligence Manager',
     cardImage: 'assets/images/experience-page/AXA.png',
     place: 'AXA XL',
-    time: '(Sep, 2012 - present)',
+    time: '(Sep, 2012 - Dec, 2022)',
     desp: '<li>Leading the Onshore (US) and India team for data to insight strategy. We cater to both Insurance & Reinsurance segment of AXAXL.</li> <li>Responsible for project management activities such as leading data analytics reports deliveries in Qlik View, Qlik Sense, Power BI.</li> <li>Creating complex solutions through queries and procedures in Python, MS SQL Server and Oracle SQL.</li>',
   },
   {
@@ -85,6 +92,12 @@ const volunteershipcards = [
     description:
       'Improve productivity by automating business processes, analyzing data to produce business insights.',
   },
+  {
+    title: 'Microsoft Certified: Power BI Data Analyst Associate',
+    cardImage: 'assets/images/experience-page/pbi_data_analyst.png',
+    description:
+      'Earning the Power BI Data Analyst Associate certification validates the skills and knowledge required ',
+},
 ]
 
 const showCards = () => {
