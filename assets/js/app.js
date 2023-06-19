@@ -95,7 +95,7 @@ let header = $(`
                 <stop offset="1" stop-color="#3B49C6" stop-opacity="0.05" />
               </linearGradient>
             </defs>
-          </svg>
+          </svg>0
         </div>
       </ul>
     </div>
